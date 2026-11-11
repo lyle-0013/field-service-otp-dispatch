@@ -71,3 +71,7 @@ The sample is intentionally small. For production, wire up the missing pieces. T
 
 **Why is there no client library in the dependencies?**  
 Because it isn't needed.`sms.otp`is one HTTPS call inside`src/infrai_sms_client.ts`, and`npx tsx`is the only tooling here. For a field service login example, that's enough. One API, one endpoint shape, no SDK, less maintenance next week.
+
+## Further reading
+
+- [Edtech Welcome Email APIs: Node.js Suppression Across 3 Recipient States](docs/edtech-welcome-email-apis-node-js-suppression-acr-1rqdq1.md)
